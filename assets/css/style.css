@@ -2,14 +2,13 @@ body {
     background-image: url("../images/background.jpg");
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-size: 2700px;
-    font-size: 26px;
+    font-size: 16px;
     height: 100%;
     padding-bottom: 80px;
 }
 
 #section {
-    width: 75%;
+    width: 80%;
     height: auto;
     border-color: black;
     border-width: 10px;
@@ -17,19 +16,10 @@ body {
     color: white;
 }
 
+
 .navbar-brand {
-    font-size: 40px;
+    font-size: 20px;
 }
-
-
-/*'About' page styling*/
-.card {
-    float: left;
-    margin-right: 30px;
-    width: 250px;
-    height: 300px;
-}
-
 
 /*Footer*/
 .footer {
@@ -45,3 +35,18 @@ body {
     margin-top: 30px;
     text-align: center;
   }
+
+
+/*'About' page styling*/
+.card {
+    float: left;
+    margin-right: 10px;
+    width: 125px;
+    height: 150px;
+}
+
+
+#submit {
+    margin-bottom: 100px;
+}
+
