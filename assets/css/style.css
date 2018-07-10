@@ -2,24 +2,38 @@ body {
     background-image: url("../images/background.jpg");
     background-attachment: fixed;
     background-repeat: no-repeat;
-    font-size: 16px;
+    font-size: 20px;
     height: 100%;
     padding-bottom: 80px;
 }
 
 #section {
+    text-shadow: 1px 1px black;
     width: 80%;
     height: auto;
-    border-color: black;
-    border-width: 10px;
-    margin-top: 5%;
     color: white;
+    margin-top: 5%;
+}
+
+.header {
+    font-size: 30px;
 }
 
 
 .navbar-brand {
-    font-size: 20px;
+    font-size: 30px;
+    font-family: 'Ultra', serif;
 }
+
+#header {
+    overflow: hidden;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
 
 /*Footer*/
 .footer {
@@ -38,15 +52,49 @@ body {
 
 
 /*'About' page styling*/
-.card {
-    float: left;
-    margin-right: 10px;
-    width: 125px;
-    height: 150px;
-}
-
 
 #submit {
     margin-bottom: 100px;
 }
+
+
+h5 {
+    font-size: 30px;
+}
+
+.text {
+    color: black;
+}
+
+.img-fluid {
+    float: left;
+    margin-right: 10px;
+}
+
+.background {
+    background: white;
+}
+
+@media only screen and (max-width: 980px) {
+    #pic {
+        height: 275px;
+        width: 225px;
+    }
+    
+}
+
+@media only screen and (max-width: 768px) {
+    #pic {
+        height: 225px;
+        width: 175px;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    #pic {
+        height: 175px;
+        width: 125px;
+    }
+}
+
 
